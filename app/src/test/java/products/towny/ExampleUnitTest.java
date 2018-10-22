@@ -1,4 +1,4 @@
-package products.towny;
+package hatchure.towny;
 
 import org.junit.Test;
 
