@@ -1,2 +1,2 @@
-# towny
+# Towny
 Saravanan's App
