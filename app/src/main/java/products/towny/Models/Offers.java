@@ -1,4 +1,4 @@
-package products.towny.Models;
+package hatchure.towny.Models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

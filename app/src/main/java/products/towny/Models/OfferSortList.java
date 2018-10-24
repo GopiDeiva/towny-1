@@ -3,13 +3,15 @@ package hatchure.towny.Models;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class OTPResponse {
+import java.util.List;
+
+public class OfferSortList {
     @SerializedName("error")
     @Expose
     private Boolean error;
-    @SerializedName("otp")
+    @SerializedName("offers_list")
     @Expose
-    private String otp;
+    private List<OfferSortItem> offersSortList = null;
 
     public Boolean getError() {
         return error;
@@ -19,12 +21,11 @@ public class OTPResponse {
         this.error = error;
     }
 
-    public String getOtp() {
-        return otp;
+    public List<OfferSortItem> getOffersSortList() {
+        return offersSortList;
     }
 
-    public void setOtp(String otp) {
-        this.otp = otp;
+    public void setOffersList(List<OfferSortItem> offersSortList) {
+        this.offersSortList = offersSortList;
     }
-
 }

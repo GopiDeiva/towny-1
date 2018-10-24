@@ -1,4 +1,4 @@
-package products.towny;
+package hatchure.towny;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -17,15 +17,15 @@ import android.widget.Toast;
 
 import java.util.regex.Pattern;
 
-import products.towny.Helpers.Utils;
-import products.towny.Interfaces.ApiInterface;
-import products.towny.Models.OTPResponse;
-import products.towny.WebHandler.WebRequesthandler;
+import hatchure.towny.Helpers.Utils;
+import hatchure.towny.Interfaces.ApiInterface;
+import hatchure.towny.Models.OTPResponse;
+import hatchure.towny.WebHandler.WebRequesthandler;
 import retrofit2.Call;
 import retrofit2.Callback;
 
-import static products.towny.Helpers.Utils.IsNetworkAvailable;
-import static products.towny.Helpers.Utils.MyPREFERENCES;
+import static hatchure.towny.Helpers.Utils.IsNetworkAvailable;
+import static hatchure.towny.Helpers.Utils.MyPREFERENCES;
 
 public class Entry extends Activity {
 

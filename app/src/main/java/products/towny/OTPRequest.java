@@ -1,4 +1,4 @@
-package products.towny;
+package hatchure.towny;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static products.towny.Helpers.Utils.GetSharedPreferencesEditor;
-import static products.towny.Helpers.Utils.PhoneNumber;
+import static hatchure.towny.Helpers.Utils.GetSharedPreferencesEditor;
+import static hatchure.towny.Helpers.Utils.PhoneNumber;
 
 public class OTPRequest extends Activity implements TextView.OnEditorActionListener {
     EditText editText_one, editText_two, editText_three, editText_four;

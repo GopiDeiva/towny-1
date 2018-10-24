@@ -1,10 +1,10 @@
-package products.towny;
+package hatchure.towny;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import static products.towny.Helpers.Utils.IsNetworkAvailable;
+import static hatchure.towny.Helpers.Utils.IsNetworkAvailable;
 
 public class OfferDetails extends AppCompatActivity {
 

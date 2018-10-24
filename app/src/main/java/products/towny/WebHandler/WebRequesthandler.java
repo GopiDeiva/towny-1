@@ -1,4 +1,4 @@
-package products.towny.WebHandler;
+package hatchure.towny.WebHandler;
 
 import android.widget.Toast;
 
